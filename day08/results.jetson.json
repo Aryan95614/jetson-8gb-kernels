@@ -1,37 +1,37 @@
 {
   "build_and_bench": {
     "model_only": {
-      "build_seconds": 66.06882357597351,
-      "engine_size_bytes": 23768372,
+      "build_seconds": 69.34042596817017,
+      "engine_size_bytes": 23741852,
       "cudagraph": {
         "gpu_compute_ms": null,
         "latency_ms": null,
-        "throughput_qps": 220.78,
+        "throughput_qps": 220.595,
         "cuda_graph_capture": true,
         "cuda_graph_warnings": []
       },
       "plain": {
         "gpu_compute_ms": null,
         "latency_ms": null,
-        "throughput_qps": 209.338,
+        "throughput_qps": 209.579,
         "cuda_graph_capture": null,
         "cuda_graph_warnings": []
       }
     },
     "model_with_preprocess": {
-      "build_seconds": 90.11178517341614,
-      "engine_size_bytes": 23831916,
+      "build_seconds": 98.80815267562866,
+      "engine_size_bytes": 23863444,
       "cudagraph": {
         "gpu_compute_ms": null,
         "latency_ms": null,
-        "throughput_qps": 196.618,
+        "throughput_qps": 196.655,
         "cuda_graph_capture": true,
         "cuda_graph_warnings": []
       },
       "plain": {
         "gpu_compute_ms": null,
         "latency_ms": null,
-        "throughput_qps": 186.617,
+        "throughput_qps": 186.938,
         "cuda_graph_capture": null,
         "cuda_graph_warnings": []
       }
@@ -40,31 +40,31 @@
   "e2e": {
     "outside_gpu_frame": {
       "gpu_ms": {
-        "mean": 6.224437824550428,
-        "p50": 6.2231199741363525,
-        "p99": 6.295950531959534,
+        "mean": 6.227777247177927,
+        "p50": 6.226848125457764,
+        "p99": 6.297200284004211,
         "n": 950
       },
-      "wall_ms_per_frame": 6.271115702000316
+      "wall_ms_per_frame": 6.268636219999962
     },
     "inside_gpu_frame": {
       "gpu_ms": {
-        "mean": 5.3061122392353255,
-        "p50": 5.305408000946045,
-        "p99": 5.3645378637313845,
+        "mean": 5.309506452460038,
+        "p50": 5.308719873428345,
+        "p99": 5.379385561943054,
         "n": 950
       },
-      "wall_ms_per_frame": 5.3088170179999
+      "wall_ms_per_frame": 5.313159537000047
     },
     "outside_cpu_frame": {
       "gpu_ms": {
-        "mean": 6.407311491213346,
-        "p50": 6.405936002731323,
-        "p99": 6.543325114250183,
+        "mean": 6.4086895847320555,
+        "p50": 6.4067840576171875,
+        "p99": 6.5364624834060665,
         "n": 950
       },
-      "wall_ms_per_frame": 6.416519576998326
+      "wall_ms_per_frame": 6.4190314410000155
     },
-    "max_abs_logit_diff_a_vs_b": 0.01025390625
+    "max_abs_logit_diff_a_vs_b": 0.00830078125
   }
 }
