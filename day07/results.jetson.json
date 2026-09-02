@@ -1,0 +1,1 @@
+{"src_w": 1280, "src_h": 720, "dst_w": 640, "dst_h": 480, "warmup_iters": 50, "timed_iters": 1000, "path_a": {"mean_us": 479.893, "p50_us": 479.840, "p99_us": 483.744, "gbps": 32.647}, "path_b": {"mean_us": 205.514, "p50_us": 205.472, "p99_us": 207.360, "gbps": 31.391}, "speedup": 2.3351}
