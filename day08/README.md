@@ -132,6 +132,6 @@ Jetson Orin Nano 8GB Super, JetPack 6.2 / L4T R36.4.2, CUDA 12.6, TensorRT
 onnxscript 0.7, numpy 1.26, opencv 4.8, Python 3.10. No sudo, no internet
 assumed beyond packages already installed via pip.
 
-This package was authored and syntax-checked on a Mac (no CUDA/TensorRT here)
-via `python3 -c "import ast; ast.parse(...)"` and `bash -n`. It has not been
-executed. Run it on the Jetson to get real numbers.
+Executed on that board at 15W; the numbers in the table above and in
+`results.jetson.json` are from that run. Rerun `bash run.sh` on your own Orin
+Nano and diff your `results.json` against it.
