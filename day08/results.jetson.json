@@ -1,0 +1,70 @@
+{
+  "build_and_bench": {
+    "model_only": {
+      "build_seconds": 66.06882357597351,
+      "engine_size_bytes": 23768372,
+      "cudagraph": {
+        "gpu_compute_ms": null,
+        "latency_ms": null,
+        "throughput_qps": 220.78,
+        "cuda_graph_capture": true,
+        "cuda_graph_warnings": []
+      },
+      "plain": {
+        "gpu_compute_ms": null,
+        "latency_ms": null,
+        "throughput_qps": 209.338,
+        "cuda_graph_capture": null,
+        "cuda_graph_warnings": []
+      }
+    },
+    "model_with_preprocess": {
+      "build_seconds": 90.11178517341614,
+      "engine_size_bytes": 23831916,
+      "cudagraph": {
+        "gpu_compute_ms": null,
+        "latency_ms": null,
+        "throughput_qps": 196.618,
+        "cuda_graph_capture": true,
+        "cuda_graph_warnings": []
+      },
+      "plain": {
+        "gpu_compute_ms": null,
+        "latency_ms": null,
+        "throughput_qps": 186.617,
+        "cuda_graph_capture": null,
+        "cuda_graph_warnings": []
+      }
+    }
+  },
+  "e2e": {
+    "outside_gpu_frame": {
+      "gpu_ms": {
+        "mean": 6.224437824550428,
+        "p50": 6.2231199741363525,
+        "p99": 6.295950531959534,
+        "n": 950
+      },
+      "wall_ms_per_frame": 6.271115702000316
+    },
+    "inside_gpu_frame": {
+      "gpu_ms": {
+        "mean": 5.3061122392353255,
+        "p50": 5.305408000946045,
+        "p99": 5.3645378637313845,
+        "n": 950
+      },
+      "wall_ms_per_frame": 5.3088170179999
+    },
+    "outside_cpu_frame": {
+      "gpu_ms": {
+        "mean": 6.407311491213346,
+        "p50": 6.405936002731323,
+        "p99": 6.543325114250183,
+        "n": 950
+      },
+      "wall_ms_per_frame": 6.416519576998326
+    },
+    "max_abs_logit_diff_a_vs_b": 0.01025390625
+  }
+}

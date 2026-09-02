@@ -1,0 +1,47 @@
+{
+ "python": {
+  "host": "python",
+  "startup_ms": 294.3692139997438,
+  "tight_loop": {
+   "iters": 1000,
+   "warmup_discarded": 50,
+   "mean_us": 1774.9178684569292,
+   "p50_us": 1777.382000000216,
+   "p99_us": 2126.188999682199,
+   "max_us": 2154.8939985223114
+  },
+  "paced_loop": {
+   "ticks": 600,
+   "hz": 30.0,
+   "jitter_p50_us": 0.43100044422317296,
+   "jitter_p99_us": 0.9616669558454305,
+   "jitter_max_us": 39.81233385275118,
+   "late_ticks_over_2ms": 0,
+   "work_mean_us": 2326.9363800075853
+  }
+ },
+ "rust": {
+  "host": "rust",
+  "startup_ms": 94.46,
+  "tight_loop": {
+   "iters": 1000,
+   "warmup_discarded": 50,
+   "mean_us": 1034.766,
+   "p50_us": 967.316,
+   "p99_us": 1950.826,
+   "max_us": 2681.21
+  },
+  "paced_loop": {
+   "ticks": 600,
+   "hz": 30.0,
+   "jitter_p50_us": 0.287,
+   "jitter_p99_us": 0.41,
+   "jitter_max_us": 1168.196,
+   "late_ticks_over_2ms": 0,
+   "work_mean_us": 4284.058
+  }
+ },
+ "rust_binary_bytes": 509704,
+ "ldd_libpython": "",
+ "parity_max_abs_diff": "0.000000 (PASS)"
+}
