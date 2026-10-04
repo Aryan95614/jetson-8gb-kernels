@@ -113,7 +113,7 @@ Numbers:
 ## exact commands (run on the Jetson, not here)
 
 ```bash
-cd ~/remarkable-claude/daily-posts/kernels/day08   # or wherever this landed on-device
+cd jetson-8gb-kernels/day08
 python3 export_onnx.py
 bash build.sh
 python3 e2e.py
